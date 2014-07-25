@@ -69,8 +69,8 @@ melted <- melt(data,id=c("subject","activity_name"), variable.name="feature", va
 summary <- ddply(melted, .(subject, activity_name, feature), summarize, fmean=mean(measurement))
 tidy <- dcast(summary, subject+activity_name~feature, value.var="fmean")
 
-# Export as csv file
+# Export as txt file
 cat("Export tide data...","\n")
-write.table(tidy, file="tidydata.csv",sep=",",row.names=FALSE)
+write.table(tidy, file="tidydata.txt",sep=",",row.names=FALSE)
 
-cat(paste(paste("Done! Tidy data saved to ", wd, sep=""),"\\tidydata.csv", sep=""),"\n")
+cat(paste(paste("Done! Tidy data saved to ", wd, sep=""),"\\tidydata.txt", sep=""),"\n")

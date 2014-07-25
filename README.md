@@ -24,7 +24,7 @@ library(plyr)
 ## How to run the script
 Use <code>source("run_analysis.R")</code> to execute the script. Enter the working directory at prompt and hit enter.
 
-The progress indicators will display in the result panel. At the end, the tidy dataset will be saved at the working directory as tidy.csv.  
+The progress indicators will display in the result panel. At the end, the tidy dataset will be saved at the working directory as tidy.txt.  
 
 ```r
 Read training dataset....   
@@ -35,7 +35,7 @@ Assign descriptive names to dataset....
 Label data....  
 Create tidy data....   
 Export tide data....   
-Done! Tidy data saved to {working directory}\tidydata.csv.
+Done! Tidy data saved to {working directory}\tidydata.txt.
 ```
 
 ## How data is processed
@@ -63,4 +63,4 @@ Done! Tidy data saved to {working directory}\tidydata.csv.
 6. Export tiday data 
 
 ## Output data  
-The final output is stored in the working directory as tidydata.csv. It contains subject, activity, and features which are mean of mean and standard deviation of the same type of measurement for the same subject and same activity.
+The final output is stored in the working directory as tidydata.txt. It contains subject, activity, and features which are mean of mean and standard deviation of the same type of measurement for the same subject and same activity.
