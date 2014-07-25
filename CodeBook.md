@@ -7,7 +7,7 @@ Code Book
 * <code>activity_name</code>              - String, descriptive label of the activity when measurements were taken.
 
 ### Measurement Features  
-All measurement features are in numeric format and are derived as the mean of each variable taken for each activity and each subject. The original measurements were normalized and bounded within[-1, 1]. Detailed data set information can be view at the [Data Set Description page of Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) at [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.html) website and the README.txt file in the [UCI HAR Dataset](https://github.com/peilinghu/CleanData_Project/tree/master/UCI%20HAR%20Dataset) folder.
+All 66 measurement features are in numeric format and are derived as the mean of each variable taken for each activity and each subject. The original measurements were normalized and bounded within[-1, 1]. Detailed data set information can be view at the [Data Set Description page of Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) at [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.html) website and the README.txt file in the [UCI HAR Dataset](https://github.com/peilinghu/CleanData_Project/tree/master/UCI%20HAR%20Dataset) folder.
 
 * <code>tBodyAcc-mean()-X</code>           
 * <code>tBodyAcc-mean()-Y</code>          
