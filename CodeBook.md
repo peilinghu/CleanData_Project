@@ -2,12 +2,16 @@ Code Book
 ========================================================
 ## Description of data in the tidy dataset
 
+The tidy dataset was derived from the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) stored in [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.html). The method used to process the data set is described in the [README](https://github.com/peilinghu/CleanData_Project/blob/master/README.md) file.
+
+30 individual participated in the project, different measurements were taken on each individual for 6 different type of activities. There are a total of 180 cases and 68 features in the tody data set. Out of the 68 feathers, 2 are ID features and 66 are measurements features. 
+
 ### ID Features
 * <code>subject</code>                    - Integer, ID of the participants. 
 * <code>activity_name</code>              - String, descriptive label of the activity when measurements were taken.
 
 ### Measurement Features  
-All 66 measurement features are in numeric format and are derived as the mean of each variable taken for each activity and each subject. The original measurements were normalized and bounded within[-1, 1]. Detailed data set information can be view at the [Data Set Description page of Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) at [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.html) website and the README.txt file in the [UCI HAR Dataset](https://github.com/peilinghu/CleanData_Project/tree/master/UCI%20HAR%20Dataset) folder.
+All 66 measurement features are in numeric format and are calculated as the mean of each variable taken for each activity and each subject. The original measurements were normalized and bounded within[-1, 1]. Detailed data set information can be view at the [Data Set Description page](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and the README.txt file in unzipped [UCI HAR Dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/) file or [here](https://github.com/peilinghu/CleanData_Project/tree/master/UCI%20HAR%20Dataset) folder.
 
 * <code>tBodyAcc-mean()-X</code>           
 * <code>tBodyAcc-mean()-Y</code>          
